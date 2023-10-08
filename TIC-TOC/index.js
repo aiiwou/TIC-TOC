@@ -16,7 +16,7 @@ stroke="red" stroke-width="10" stroke-linecap="round"/>
 </svg>`;
 
 game.addEventListener('click', init);
-btnGame.addEventListener('click', newGame)
+btnGame.addEventListener('click', newGame);
 
 function doStep(target) {
     target.innerHTML = stepCross ? cross : circle;
